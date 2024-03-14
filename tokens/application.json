@@ -1044,7 +1044,7 @@
               "fontFamily": "{config.fontFamily.uiAlt}",
               "fontWeight": "{config.fontWeight.medium}",
               "lineHeight": "140%",
-              "fontSize": "{config.fontSize.control.text}"
+              "fontSize": "0.875rem"
             },
             "type": "typography"
           },
@@ -1064,7 +1064,7 @@
               "fontFamily": "{config.fontFamily.uiAlt}",
               "fontWeight": "{config.fontWeight.medium}",
               "lineHeight": "120%",
-              "fontSize": "{config.fontSize.control.text}"
+              "fontSize": "0.875rem"
             },
             "type": "typography"
           },
