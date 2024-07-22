@@ -12,7 +12,6 @@
     "component/toggle",
     "component/avatar",
     "component/avatarGroup",
-    "component/select",
     "component/message",
     "component/status",
     "component/type",
