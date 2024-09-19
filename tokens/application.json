@@ -1816,7 +1816,7 @@
             },
             "focusRing": {
               "default": {
-                "value": "{config.color.info.alpha.bg.active} - 0.08",
+                "value": "{app.config.color.info.alpha.bg.active} - 0.08",
                 "type": "other"
               }
             }
