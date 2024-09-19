@@ -1521,17 +1521,17 @@
         "neutral": {
           "hue": {
             "default": {
-              "value": "50",
+              "value": "40",
               "type": "other"
             }
           },
           "saturation": {
             "default": {
-              "value": "1%",
+              "value": "0%",
               "type": "other"
             },
             "translucent": {
-              "value": "1%",
+              "value": "0%",
               "type": "other"
             }
           },
@@ -1552,15 +1552,33 @@
           "alpha": {
             "bg": {
               "default": {
-                "value": "0.12",
+                "value": "0.06",
                 "type": "other"
               },
               "hover": {
-                "value": "0.16",
+                "value": "0.08",
                 "type": "other"
               },
               "active": {
-                "value": "0.2",
+                "value": "0.1",
+                "type": "other"
+              },
+              "subtle": {
+                "value": "0.04",
+                "type": "other"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "0.08",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.12",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.16",
                 "type": "other"
               },
               "subtle": {
@@ -1568,21 +1586,17 @@
                 "type": "other"
               }
             },
-            "border": {
+            "fg": {
               "default": {
-                "value": "0.16",
+                "value": "0.6",
                 "type": "other"
               },
               "hover": {
-                "value": "0.2",
+                "value": "1",
                 "type": "other"
               },
               "active": {
-                "value": "0.24",
-                "type": "other"
-              },
-              "subtle": {
-                "value": "0.12",
+                "value": "1",
                 "type": "other"
               }
             }
@@ -1597,89 +1611,17 @@
         "accent": {
           "hue": {
             "default": {
-              "value": "215",
-              "type": "other"
-            }
-          },
-          "saturation": {
-            "default": {
-              "value": "100%",
-              "type": "other"
-            },
-            "translucent": {
-              "value": "100%",
-              "type": "other"
-            }
-          },
-          "darken": {
-            "default": {
-              "value": "0.08",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.08",
-              "type": "other"
-            },
-            "active": {
-              "value": "0.16",
-              "type": "other"
-            }
-          },
-          "alpha": {
-            "bg": {
-              "default": {
-                "value": "0.24",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.32",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.4",
-                "type": "other"
-              }
-            },
-            "border": {
-              "default": {
-                "value": "0.32",
-                "type": "other"
-              },
-              "hover": {
-                "value": "0.4",
-                "type": "other"
-              },
-              "active": {
-                "value": "0.48",
-                "type": "other"
-              }
-            }
-          },
-          "lighten": {
-            "default": {
-              "value": "0.8",
-              "type": "other"
-            },
-            "translucent": {
-              "value": "0.8",
-              "type": "other"
-            }
-          }
-        },
-        "grey": {
-          "hue": {
-            "default": {
               "value": "50",
               "type": "other"
             }
           },
           "saturation": {
             "default": {
-              "value": "0%",
+              "value": "3%",
               "type": "other"
             },
             "translucent": {
-              "value": "0%",
+              "value": "3%",
               "type": "other"
             }
           },
@@ -1700,37 +1642,161 @@
           "alpha": {
             "bg": {
               "default": {
-                "value": "0.12",
+                "value": "0.06",
                 "type": "other"
               },
               "hover": {
-                "value": "0.16",
+                "value": "0.08",
                 "type": "other"
               },
               "active": {
-                "value": "0.2",
+                "value": "0.1",
                 "type": "other"
               },
               "subtle": {
-                "value": "0.08",
+                "value": "0.04",
                 "type": "other"
               }
             },
             "border": {
               "default": {
-                "value": "0.16",
+                "value": "0.08",
                 "type": "other"
               },
               "hover": {
-                "value": "0.2",
+                "value": "0.12",
                 "type": "other"
               },
               "active": {
-                "value": "0.24",
+                "value": "0.16",
                 "type": "other"
               },
               "subtle": {
+                "value": "0.06",
+                "type": "other"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "0.6",
+                "type": "other"
+              },
+              "hover": {
+                "value": "1",
+                "type": "other"
+              },
+              "active": {
+                "value": "1",
+                "type": "other"
+              }
+            }
+          },
+          "lighten": {
+            "default": {
+              "value": "0.8",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.8",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.8",
+              "type": "other"
+            },
+            "translucent": {
+              "value": "0.8",
+              "type": "other"
+            }
+          }
+        },
+        "primary": {
+          "hue": {
+            "default": {
+              "value": "50",
+              "type": "other"
+            }
+          },
+          "saturation": {
+            "default": {
+              "value": "3%",
+              "type": "other"
+            },
+            "translucent": {
+              "value": "3%",
+              "type": "other"
+            }
+          },
+          "darken": {
+            "default": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "hover": {
+              "value": "0.1",
+              "type": "other"
+            },
+            "active": {
+              "value": "0.2",
+              "type": "other"
+            }
+          },
+          "alpha": {
+            "bg": {
+              "default": {
+                "value": "0.06",
+                "type": "other"
+              },
+              "hover": {
+                "value": "0.08",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.1",
+                "type": "other"
+              },
+              "subtle": {
+                "value": "0.04",
+                "type": "other"
+              },
+              "amp": {
+                "value": "0.1",
+                "type": "other"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "0.08",
+                "type": "other"
+              },
+              "hover": {
                 "value": "0.12",
+                "type": "other"
+              },
+              "active": {
+                "value": "0.16",
+                "type": "other"
+              },
+              "subtle": {
+                "value": "0.06",
+                "type": "other"
+              },
+              "amp": {
+                "value": "0.14",
+                "type": "other"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "0.6",
+                "type": "other"
+              },
+              "hover": {
+                "value": "1",
+                "type": "other"
+              },
+              "active": {
+                "value": "1",
                 "type": "other"
               }
             }
@@ -1753,7 +1819,7 @@
         "info": {
           "hue": {
             "default": {
-              "value": "215",
+              "value": "210",
               "type": "other"
             }
           },
@@ -1788,15 +1854,15 @@
           "alpha": {
             "bg": {
               "default": {
-                "value": "0.24",
+                "value": "0.16",
                 "type": "other"
               },
               "hover": {
-                "value": "0.32",
+                "value": "0.24",
                 "type": "other"
               },
               "active": {
-                "value": "0.4",
+                "value": "0.32",
                 "type": "other"
               }
             },
@@ -1817,6 +1883,20 @@
             "focusRing": {
               "default": {
                 "value": "{app.config.color.info.alpha.bg.active} - 0.08",
+                "type": "other"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "0.6",
+                "type": "other"
+              },
+              "hover": {
+                "value": "1",
+                "type": "other"
+              },
+              "active": {
+                "value": "1",
                 "type": "other"
               }
             }
@@ -1862,15 +1942,15 @@
           "alpha": {
             "bg": {
               "default": {
-                "value": "0.32",
+                "value": "0.24",
                 "type": "other"
               },
               "hover": {
-                "value": "0.4",
+                "value": "0.32",
                 "type": "other"
               },
               "active": {
-                "value": "0.48",
+                "value": "0.4",
                 "type": "other"
               }
             },
@@ -1887,6 +1967,20 @@
                 "value": "0.56",
                 "type": "other"
               }
+            },
+            "fg": {
+              "default": {
+                "value": "0.6",
+                "type": "other"
+              },
+              "hover": {
+                "value": "1",
+                "type": "other"
+              },
+              "active": {
+                "value": "1",
+                "type": "other"
+              }
             }
           },
           "lighten": {
@@ -1899,7 +1993,7 @@
         "warning": {
           "hue": {
             "default": {
-              "value": "45",
+              "value": "40",
               "type": "other"
             }
           },
@@ -1930,15 +2024,15 @@
           "alpha": {
             "bg": {
               "default": {
-                "value": "0.4",
+                "value": "0.32",
                 "type": "other"
               },
               "hover": {
-                "value": "0.48",
+                "value": "0.4",
                 "type": "other"
               },
               "active": {
-                "value": "0.56",
+                "value": "0.48",
                 "type": "other"
               }
             },
@@ -1955,6 +2049,20 @@
                 "value": "0.64",
                 "type": "other"
               }
+            },
+            "fg": {
+              "default": {
+                "value": "0.6",
+                "type": "other"
+              },
+              "hover": {
+                "value": "1",
+                "type": "other"
+              },
+              "active": {
+                "value": "1",
+                "type": "other"
+              }
             }
           },
           "lighten": {
@@ -1967,13 +2075,13 @@
         "danger": {
           "hue": {
             "default": {
-              "value": "10",
+              "value": "15",
               "type": "other"
             }
           },
           "saturation": {
             "default": {
-              "value": "90%",
+              "value": "100%",
               "type": "other"
             },
             "translucent": {
@@ -1998,18 +2106,18 @@
           "alpha": {
             "bg": {
               "default": {
-                "value": "0.24",
+                "value": "0.16",
                 "type": "other"
               },
               "hover": {
-                "value": "0.32",
+                "value": "0.24",
                 "type": "other"
               },
               "active": {
-                "value": "0.4",
+                "value": "0.32",
                 "type": "other"
               },
-              "light": {
+              "subtle": {
                 "value": "0.08",
                 "type": "other"
               }
@@ -2025,6 +2133,20 @@
               },
               "active": {
                 "value": "0.48",
+                "type": "other"
+              }
+            },
+            "fg": {
+              "default": {
+                "value": "0.6",
+                "type": "other"
+              },
+              "hover": {
+                "value": "1",
+                "type": "other"
+              },
+              "active": {
+                "value": "1",
                 "type": "other"
               }
             }
